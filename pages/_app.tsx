@@ -9,6 +9,7 @@ import type { AppProps } from "next/app";
 export const DefaultMeta = {
   title: "Open Graph Link Shortener",
   description: "Shorten your links and use custom social previews!",
+  url: "https://parison.id",
   image: "https://ogp.me/logo.png",
   color: "#007bff",
 };
@@ -27,6 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         title: (routeData && routeData.title) || DefaultMeta.title,
         description:
           (routeData && routeData.description) || DefaultMeta.description,
+        url: (routeData && routeData.url) || DefaultMeta.url,
         images: [
           {
             url: (routeData && routeData.image) || DefaultMeta.image,
