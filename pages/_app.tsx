@@ -39,7 +39,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         {
           name: "theme-color",
           content: (routeData && routeData.color) || DefaultMeta.color,
-          url: (routeData && routeData.url) || 'facebook.com',
         },
       ]}
     />
