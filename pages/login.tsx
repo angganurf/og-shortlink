@@ -151,14 +151,14 @@ const Login = () => {
               </Card>
             </Col>
           </Row>
-          <div className="w-100 text-center mt-2">
+{/*           <div className="w-100 text-center mt-2">
             <p
               onClick={handleAnonymousLogin}
               className={loading ? "link-disabled" : "link"}
             >
               Sign in Anonymously
             </p>
-          </div>
+          </div> */}
         </div>
       </Container>
     </>
