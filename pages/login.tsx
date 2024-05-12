@@ -61,8 +61,8 @@ const Login = () => {
         style={{ minHeight: "100vh" }}
       >
         <div className="w-100 mt-5 mb-5" style={{ maxWidth: "900px" }}>
-          <Row xs={1} md={2}>
-            <Col>
+          <Row xs={1} md={1}>
+        {/* <Col>
               <Card className="h-100">
                 <Card.Body className="d-flex flex-column justify-content-center">
                   <h2 className="text-center mb-4">
@@ -76,7 +76,7 @@ const Login = () => {
                   </p>
                 </Card.Body>
               </Card>
-            </Col>
+            </Col> */}
             <Col>
               <Card>
                 <Card.Body>
@@ -123,7 +123,7 @@ const Login = () => {
                   </div>
                   <hr />
 
-                  <p>Socials</p>
+{/*                   <p>Socials</p>
                   <span className="d-flex justify-content-center m-1">
                     <FaGoogle
                       onClick={() => handleOAuth(OAuthType.Google)}
@@ -146,7 +146,7 @@ const Login = () => {
                         " mx-1"
                       }
                     />
-                  </span>
+                  </span> */}
                 </Card.Body>
               </Card>
             </Col>
