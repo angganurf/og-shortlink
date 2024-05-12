@@ -113,13 +113,13 @@ const Login = () => {
                     </Button>
                   </Form>
                   <div className="w-100 text-center mt-2">
-                    <Link href="/signup">
+{/*                     <Link href="/signup">
                       <a>Sign up</a>
-                    </Link>
+                    </Link> */}
                     <br />
-                    <Link href="/forgot-password">
+{/*                     <Link href="/forgot-password">
                       <a>Forgot password?</a>
-                    </Link>
+                    </Link> */}
                   </div>
                   <hr />
 
